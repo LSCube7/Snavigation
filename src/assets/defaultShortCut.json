@@ -17,7 +17,7 @@
   {
     "id": 3,
     "name": "云盘",
-    "url": "https://www.aliyundrive.com/drive/"
+    "url": "https://file.lsc7.top/"
   },
   {
     "id": 4,
@@ -38,5 +38,10 @@
     "id": 7,
     "name": "哔哩哔哩",
     "url": "https://www.bilibili.com/"
+  },
+    {
+    "id": 8,
+    "name": "知乎",
+    "url": "https://www.zhihu.com/"
   }
 ]
