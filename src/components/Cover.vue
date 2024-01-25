@@ -35,7 +35,7 @@ const setBgUrl = () => {
   const { backgroundType } = set;
   switch (backgroundType) {
     case 0:
-      bgUrl.value = `/background/bg${bgRandom}.jpg`;
+      bgUrl.value = "https://api.aixiaowai.cn/api/api2.php";
       break;
     case 1: {
       const isMobile = window.innerWidth < 768;
@@ -43,7 +43,7 @@ const setBgUrl = () => {
       break;
     }
     case 2:
-      bgUrl.value = "https://api.aixiaowai.cn/gqapi/gqapi.php";
+      bgUrl.value = `/background/bg${bgRandom}.jpg`;
       break;
     case 3:
       bgUrl.value = "https://api.aixiaowai.cn/api/api.php";
